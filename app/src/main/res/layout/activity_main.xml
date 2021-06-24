@@ -26,14 +26,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/true_button" />
+            android:text="@string/true_button"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/false_button" />
+            android:text="@string/false_button"
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
@@ -49,7 +51,8 @@
             android:text="@string/prev_button"
             android:layout_margin="8dp"
             android:drawableLeft="@drawable/arrow_left"
-            android:drawablePadding="4dp" />
+            android:drawablePadding="4dp"
+            style="?android:attr/buttonBarButtonStyle" />
         <Button
             android:id="@+id/next_button"
             android:layout_width="wrap_content"
@@ -57,7 +60,8 @@
             android:text="@string/next_button"
             android:layout_margin="8dp"
             android:drawableRight="@drawable/arrow_right"
-            android:drawablePadding="4dp" />
+            android:drawablePadding="4dp"
+            style="?android:attr/buttonBarButtonStyle" />
 
 <!--        <ImageButton-->
 <!--            android:id="@+id/prev_button"-->

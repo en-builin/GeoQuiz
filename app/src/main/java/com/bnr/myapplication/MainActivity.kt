@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var falseButton: Button
     private lateinit var nextButton: Button
     private lateinit var prevButton: Button
-//    private lateinit var nextButton: ImageButton
-//    private lateinit var prevButton: ImageButton
     private lateinit var questionTextView: TextView
 
     private val quizViewModel: QuizViewModel by lazy {
